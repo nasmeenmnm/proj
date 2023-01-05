@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Phone Cart </title>
+ <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="pcart.css">
+</head>
+<body>
+	<div class="item">
+		ITEMS
+	</div>
+<div class="cont">
+	<div class="gallery">
+	<a target="_blank" href="https://www.gsmarena.com/apple_iphone_14_pro_max-11773.php">
+		<img src="https://uandt.lk/wp-content/uploads/2022/10/261991_hhfa33.png" width="200px" height="250px;">
+	</a>	
+	<p class="desc">I phone 14 Pro Max 1TB<br>LKR 798000</p>
+		<button type="button" onclick="myfunction3()">Add to Cart</button>
+	</div>
+	
+	<div class="gallery">
+	<a target="_blank" href="https://www.gsmarena.com/samsung_galaxy_s22_ultra_5g-11251.php">
+		<img src="https://fdn2.gsmarena.com/vv/pics/samsung/samsung-galaxy-s22-ultra-5g-2.jpg" width="200px" height="250px;">
+	</a>	
+	<p class="desc">Samsung S22 Ultra 256GB <br>LKR 425000</p>
+		<button type="button" onclick="myfunction2()">Add to Cart</button>
+	</div>
+	
+	<div class="gallery">
+	<a target="_blank" href="https://www.androidpolice.com/google-pixel-7a/">
+		<img src="https://fdn.gsmarena.com/imgroot/news/22/11/google-pixel-7a-leaked-renders/inline/-1200/gsmarena_001.jpg" width="200px" height="250px;">
+	</a>	
+		<p class="desc">Google Pixel 7a 512GB<br>LKR 222000</p>
+		<button type="button" onclick="myfunction1()">Add to Cart</button>
+	</div>
+	
+	<div class="gallery">
+	<a target="_blank" href="https://www.gsmarena.com/xiaomi_12s_ultra-11614.php">
+		<img src="https://cdn.dxomark.com/wp-content/uploads/medias/post-121010/Xiaomi-12S-Ultra-featured-image-packshot-review.jpg" width="200px" height="250px;">
+	</a>
+	<p class="desc">Xiaomi 12S Ultra 256GB<br>
+		LKR 180000</p>
+		<button type="button" onclick="myfunction()">Add to Cart</button>
+	</div>
+</div>
+<script>
+function myfunction(){document.getElementById("demo").innerHTML="XIAOMI 12s ULTRA src='w9.jpg'";}
+function myfunction1(){document.getElementById("demo1").innerHTML="GOOGLE Pixel 7a";}
+function myfunction2(){document.getElementById("demo2").innerHTML="SAMSUNG S22 ULTRA";}
+function myfunction3(){document.getElementById("demo3").innerHTML="I phone 14 pro max";}
+</script>
+
+<div class="cart">
+<img class="ima" src="https://www.freeiconspng.com/thumbs/shopping-cart-icon/shopping-cart-icon-2.png">
+<div class="text">CART</div>
+<p class="para" id="demo"></p>
+<p class="para" id="demo1"></p>
+<p class="para" id="demo2"></p>
+<p class="para" id="demo3"></p>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,72 @@
+	.item{
+		color:red;
+		background:blue;
+		text-align:center;
+		font-family:"Time new Roman",Times,serif;
+		text-shadow:2px 2px 5px black;
+		margin:0px;
+		font-size:40px;
+		
+		}
+	.cont{
+		display: flex;
+		margin:0px;
+		background-color:rgba(180,180,180,0.5);
+		width:100%
+		}
+	.gallery{
+		padding:5px;
+		text-align:center;
+		background:white;
+		margin:15px;
+		width:25%;
+		font-size:20px;
+		}
+	button{
+		background:blueviolet;
+		color:white;
+		font-size:20px;
+		width:200px;
+		height:50px;
+		text-align:center;
+		border-radius:5px;
+		border:none;
+		margin-top:10px;
+	}
+	body{
+		background:rgb(216,218,218);
+		padding:10px;
+	}
+	.desc{
+		font-size:25px;
+		background:rgb(240,240,240);
+		text-align:center;
+		width:100%;
+		font-weight:bold;
+		
+		}
+	.cart{
+		height:200px;
+		background:yellow;
+		}
+	.text{
+		color:white;
+		font-size:50px;
+		text-align:center;
+		text-shadow:3px 3px 4px black;
+		
+	}
+	.ima{
+		width:180px; 
+		height:180px;
+		float:left}
+	
+	.para{
+		color:blue;
+		font-size:24px;
+		text-align:center;
+		padding:0px;
+		margin:0px;
+	}
+
+	
